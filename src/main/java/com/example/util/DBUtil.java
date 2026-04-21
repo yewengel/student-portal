@@ -7,8 +7,8 @@ import java.sql.SQLException;
 public class DBUtil {
 
     private static final String URL = "jdbc:mysql://localhost:3306/student_db?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC";
-    private static final String USERNAME = "studentapp";
-    private static final String PASSWORD = "student123"; // match your MySQL user
+    private static final String USERNAME = "root";
+    private static final String PASSWORD = ""; // match your MySQL user
 
     static {
         try {
